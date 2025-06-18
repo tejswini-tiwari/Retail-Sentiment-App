@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Retail Sentiment App</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+        <h2 style="color: blue;">{{ message }}</h2>
+        <form method="post" action="/analyze">
+            <label>Enter Product Link (e.g. Product A):</label>
+            <br>
+            <input type="text" name="product_link" required>
+            <br><br>
+            <input type="submit" value="Analyze">
+        </form>
+        
+        {% if avg_sentiment %}
+        <h3>Average Sentiment Score: {{ avg_sentiment }}</h3>
+        <h4>Pros:</h4>
+        <ul>
+            {% for pro in pros %}
+            <li>{{ pro }}</li>
+            {% endfor %}
+        </ul>
+        <h4>Cons:</h4>
+        <ul>
+            {% for con in cons %}
+            <li>{{ con }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+</body>
+</html>
+    

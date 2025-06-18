@@ -1,0 +1,4 @@
+Flask
+pandas
+textblob
+mysql-connector-python

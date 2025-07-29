@@ -6,4 +6,5 @@ Retail Sentiment App
 ◦ Achieved a 70% reduction in manual review time by automating the analysis of product feedback using NLP techniques. 
 ◦ Implemented retailer authentication (Login/Register) and integrated a MySQL-backed database for managing user sessions and data securely.
 
-[![Watch the video](https://img.youtube.com/vi/https://youtu.be/TDNHRZrWFQk/0.jpg)](https://www.youtube.com/watch?v=https://youtu.be/TDNHRZrWFQk)
+[Watch the video]
+https://youtu.be/TDNHRZrWFQk
